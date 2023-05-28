@@ -5,7 +5,7 @@ class script(object):
 𝐘𝐎𝐔 𝐂𝐀𝐍 𝐔𝐒𝐄 𝐌𝐄 𝐈𝐍 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐎𝐍𝐋𝐘, 𝐈 𝐖𝐈𝐋𝐋 𝐆𝐈𝐕𝐄 𝐌𝐎𝐕𝐈𝐄𝐒 𝐎𝐑 𝐒𝐄𝐑𝐈𝐄𝐒 𝐈𝐍 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐎𝐍𝐋𝐘✨"""
 
 
-    HELP_TXT =
+    HELP_TXT ="""Hello {} 👋🏻"""
 
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/SUNRISES_24>𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒 𝐇𝐀𝐑𝐒𝐇𝐀✨</a>
@@ -15,7 +15,7 @@ class script(object):
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
 
-    SOURCE_TXT = 
+   
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
