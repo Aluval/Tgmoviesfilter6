@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url='https://t.me/sources_cods')
+                InlineKeyboardButton('📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒📢', url='https://t.me/Sunrises_Bot_discussion_Group')
             ],
             [
-                InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('💌 𝐇𝐄𝐋𝐏 💌', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,13 +42,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🎬 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 🍿', url=f'https://t.me/moviessearch24')
             ],[
-            InlineKeyboardButton('🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url='https://t.me/sources_cods')
+            InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒📢', url='https://t.me/Sunrises_Bot_discussion_Group')
             ],[
-            InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
-            InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
+            InlineKeyboardButton('💌 𝐇𝐄𝐋𝐏 💌', callback_data='help'),
+            InlineKeyboardButton('🌟 𝐀𝐁𝐎𝐔𝐓 🌟', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -67,7 +67,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "📢 𝐉𝐎𝐈𝐍 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=invite_link.invite_link
                 )
             ]
         ]
@@ -88,13 +88,13 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🎬 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 🍿', url=f'https://t.me/moviessearch24')
             ],[
-            InlineKeyboardButton('🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url='https://t.me/sources_cods')
+            InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒📢', url='https://t.me/Sunrises_Bot_discussion_Group')
             ],[
-            InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
-            InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
+            InlineKeyboardButton('💌 𝐇𝐄𝐋𝐏 💌', callback_data='help'),
+            InlineKeyboardButton('🌟 𝐀𝐁𝐎𝐔𝐓 🌟', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
